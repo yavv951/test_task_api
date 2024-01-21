@@ -36,8 +36,13 @@
 Create and activate virtual environments
 
 ```
+для Linux
 python3 -m venv venv
 source venv/bin/activate
+
+для OC Windows
+python -m venv venv
+venv\Scripts\activate
 ```
 
 Run in terminal
@@ -51,3 +56,9 @@ pip install -r requirements.txt
 ```
 pytest
 ```
+
+## :bar_chart: Allure-отчет
+<img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/store_api_test/allure/#graph">Allure report</a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/store_api_test/allure/"><img src="images/image/Allure3.jpg" alt="Allure-отчет"/></a>
+</p>
