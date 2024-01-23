@@ -1,10 +1,7 @@
 import pytest
-from faker import Faker
 
 from endpoints_models.app import StoreApp
 from endpoints_models.characters.model import DataGetCharacter, MessageResponse
-
-fake = Faker()
 
 
 def pytest_addoption(parser):
